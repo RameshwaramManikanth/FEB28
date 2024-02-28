@@ -1,0 +1,4 @@
+From ubuntu
+Workdir /app
+Run apt update && apt install python2.7 -y
+CMD ["sleep","100"]
